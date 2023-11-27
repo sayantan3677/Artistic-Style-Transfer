@@ -1,0 +1,31 @@
+# Artistic Style Transfer using VGG-16
+
+This project implements artistic style transfer using the VGG-16 convolutional neural network. It takes two images as input—a content image and a style image—and generates a new image that combines the content of the former with the artistic style of the latter.
+
+## Requirements
+
+- Python 3
+- TensorFlow
+- Keras
+- NumPy
+- Matplotlib
+
+
+## Adjust parameters such as the number of iterations, content-weight, style-weight, etc., within the script based on your preferences.
+
+## The generated image will be saved in the project directory as `final.png` by default.
+
+## Configuration
+
+You can configure various parameters in the `style_transfer.py` script:
+
+- `content_image`: The content image.
+- `style_image`:   The style image.
+- `output_path`: Path to save the generated image.
+- `content_weight`: Weight for content loss.
+- `style_weight`: Weight for style loss.
+- `total_variation_weight`: Weight for total variation loss.
+- `num_iterations`: Number of iterations for optimization.
+- `save_every`: Interval to save intermediate results.
+
+
